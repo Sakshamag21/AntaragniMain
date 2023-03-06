@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+
+.contactnav{
+	position: fixed;
+	top: 5%;
+    width: 20vw;
+	bottom: auto;
+	z-index: 10;
+}
+.contactul{
+	list-style: none;
+	padding: 0;
+}
+.contactli{
+	padding: 20px 0;
+}
+span{
+	display: inline-block;
+	position:relative;
+}
+.contactnav a{
+	display: inline-block;
+	color: #272727;
+	text-decoration: none;
+	font-size: 1em;
+}
+.contactcircle{
+	height: 10px;
+	width: 10px;
+	left: -10px;
+	border-radius: 50%;
+	background-color: #272727;
+}
+.contactrect{
+	height: 3px;
+	width: 0px;
+	left: 0;
+	bottom: 4px;
+	background-color: #272727;
+	-webkit-transition: -webkit-transform 0.6s, width 1s;
+	-moz-transition: -webkit-transform 0.6s, width 1s;
+	transition: transform 0.6s, width 1s;
+}
+.contactnav a:hover, .contactnav .contactactive-section{
+	color: #9b59b6;
+}
+.contactnav a:hover span, .contactnav .contactactive-section span{
+	background-color: #9b59b6;
+}
+.contactnav .contactactive-section .contactrect{
+	width: 40px;
+}
+.contactcontent-section{
+	position: relative;
+	width: 90vw;
+	height: 97vh;
+	left: 50%;
+	background-color: #148686;
+	text-align: center;
+	-webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.contactcontent-section h1{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+	color:#9b59b6;
+	font-size: 3em;
+}
+
+
+
+
+
+
+
